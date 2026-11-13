@@ -1,0 +1,6 @@
+{
+  "name": "Grindr: The Global Gayborhood",
+  "description": "Connect with guys nearby and around the world. Live radar grid, interactive profiles, messaging, and global explore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

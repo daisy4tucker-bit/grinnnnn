@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Rub Rankings – Quick Check-In</title>
+<style>
+  :root {
+    --purple: #7b2ee6; --purple-dark: #6421c4; --pink: #e8457c;
+    --bg: #1c1c1c; --top: #0e0e0e; --line: #333;
+    --text: #ffffff; --muted: #c4c0c8;
+    --skin: #c9a38a; --skin-shade: #b08a72; --hand: #e2bfa6; --hand-shade: #cfa88e;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: radial-gradient(ellipse at 50% 45%, rgba(123,46,230,.22) 0%, rgba(123,46,230,0) 55%), var(--bg);
+  }
+  header { background: var(--top); border-bottom: 1px solid var(--line); padding: 16px; text-align: center; }
+  header img { height: 46px; width: auto; }
+  .notice { color: var(--pink); font-size: .95rem; margin-top: 6px; }
+  main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+          text-align: center; padding: 28px 16px 32px; }
+  main { justify-content: flex-start; }
+  .scene { width: 460px; max-width: 92vw; height: auto; overflow: visible; margin-bottom: 18px; }
+  h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); margin: 6px 0 14px; font-weight: 600; }
+  p { font-size: clamp(1rem, 2.2vw, 1.15rem); line-height: 1.6; margin: 0 auto 12px; color: var(--muted); max-width: 560px; }
+  .btn { display: inline-block; margin-top: 14px; padding: 14px 38px; border-radius: 4px; background: var(--purple);
+          color: #fff; text-decoration: none; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+  .btn:hover { background: var(--purple-dark); }
+  .small { font-size: .85rem; margin-top: 22px; color: #9a96a0; }
+  .challenge { margin: 8px auto 22px; display: flex; justify-content: center; min-height: 70px; }
+  .cf { display: none; }
+
+  .scene { width: 360px; margin: 0 0 4px; }
+  /* leg massage animation */
+  .scene { overflow: hidden; }
+  .hands { animation: glide 3.4s ease-in-out infinite; }
+  .squeeze { transform-origin: 194px 90px; animation: sq 1.7s ease-in-out infinite; }
+  .calf { transform-origin: 190px 139px; animation: knead 1.7s ease-in-out infinite; }
+  .press-glow { animation: pg 1.7s ease-in-out infinite; }
+  @keyframes glide { 0%, 100% { transform: translateX(-34px); } 50% { transform: translateX(34px); } }
+  @keyframes sq { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(3px) scaleX(1.02); } }
+  @keyframes knead { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(.985); } }
+  @keyframes pg { 0%, 100% { opacity: .3; } 50% { opacity: .8; } }
+  @media (prefers-reduced-motion: reduce) { .hands, .squeeze, .calf, .press-glow { animation: none; } }
+</style>
+<meta http-equiv="refresh" content="360"></head>
+<body>
+  <header>
+    <img src="data:image/webp;base64,UklGRuwPAABXRUJQVlA4WAoAAAAwAAAALgEAKAAASUNDUBgCAAAAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANkFMUEjbCgAAAcCG7f85udmu7+/3n91wETuNbdusjY3zBFWS3kjqNk9t27btuEZYhLViZ2b+83kxM//dtLt792VETAAH1fFPqNHmlPEnFY0/sUcM7B8Qz7xdSk+uPR3cPx/gYh0v2aEDkp4E+wckvf1yxcO4ngb7B8RcjIpLlFBcN+H+Xs7+xzFnZIxRZ50SqaTG4/9W/9NWcGT1MYBD9igZam9L3N8oGFa/VImVL25e/fGy156+57EXXlv0xYr3n7zyjNr9DihMaJlR4gbmA+98ELiS8Zyop7CSc2A+8M4H3v4KnknrqxTL+7KsUbv+7yv6geuuV5hK6DJ8SYEnorcSCJipNzmYzojoD17AteqIK0aZX3t36kC4+7Rho4oelg5I675SMpXSUHwJtapMtSPmXX/7zZfO7OnBiueZqLcPQoX20HrS/Jtvv+H8kw/hLxhwng7HF+PoadXKMHNU3KikfiN9yM9KJLRprZJJrauClUjwwxuzdinrLxcXYiVwit4vMcdYzX1Q2Zcd+1eYo6nZnE+r9IuOw5dZQM5qJfV7IT4I6LZHYVJPblIY1+24klku/XDraUcP6d2jX/8HtLI2VrwTtPggDJW0YP7EsQN69ux/xDpdhZWEt0wGniL9lyDNPJmbHFMZvMtkZVYeBjlcqERSS8crTIUajS8J3tItZL9A6o0r3klaZhnMe++L0yGxfwxZc5bqSyKbcxnAwDnAOUbpkgwe2p9saVkNnAdcyZnz3pVG7mMl0gCjyS6FUv2LlUjqY0rSeEGtyMnJNej8mnQVBjhn2SzgFH3iAOcovtFQCyGWGwNf9LN2DMJlMU+6Qe6ElniDynWMgG66BQ+eipfpBSIePhjnIVa7IlF9ELgszlN6L4gALFFSYS+e1QH9mJvmA1+Mx9QVwEa9KK04juyWBUeRPveYh4YTr7j26OJUTy3DgBpnfiM92RxHZg807d0hlxgn6UpgyIM/xlf3hMZ6BPPQZ7WeBcNo89LJNNPHQJtr1uz/YzIukyfdpZkDGg464vAOpdKiKMaTSijZhcul5FgcGS2K425NJqfLZd9LLx7lMcCY+mwzDDCuvQMmaHkAtH1gnyRdj0WAqnt2FJJ/5JOhfr2mIzgye6rM+SyU1jSH/+oaOrwiaZ82VaGmXiUG50mXg4FjuB5giD6h4CZJcak7DjCj6gmXXNgHwEObq75T+mH4Us3xgOLann+lQh2DA5h229FEu1Prn/hRWjC9LuABo95u3YTP8LwGM0WrKuAvkXa9ee9nCltiUaps1QevxbX7/pG54ByZHcO/kzZ/vU0Pw+W6aIq05vLDak7WyVQLP4Rm72vrsWCkDdZjHK3Xxm7W73ed1KyD7sCDQdEPknQ5eOo8KH337H0PvauzCEo14zkd0Fv/r7jOJwDjZkmzcFHukLTm7MaAedI9R0rzMniu1QVM01rqLtP2uXWAJzUGH2mLlHrt2EqAd2R1TJcWH5ZvDdf/Xok7tFkfj40BrXQj+fFvGb9XrzTEk+4YoteYoM36bVoBwM+fAwY3Sg+Nv2inZkPfP/RIW9IbNcFKn4VK6LdMxNYoqV1K6lMAo0VC+7Q5H4twl7SiOgSBkdkzWfvb4oCAubqPaVrZeq1eaQjkMl8DcJG2SdcCMU9EzyRpPmDcoyY8IM0FfEAtvUD+np0vKXUaBGQZqkVMkx6tAC4wPt6Wi8F9+qYPMEuLabJFs8HFYt4ojd1SJfRHAQaO3kolUkolNZ4AHENSqVA7a0e6Twf056xc8BEm6GMyBkzTS0zTz6t1GwQW0Cm1tRCLkrdD0sJB4C2bo3NSp0Jgxrvqy8N6EDxApcRi8ndIS9sQ80T5khn62ogZwNsqwHOJPi7EV6BIn3OJFlKqL9BerY0BeB5WQkqF2nMIljYwpVBbCyLdr+Uzv9HGk8G5LCfoVnyaZ4LeZqoSeho8AfkrNB9HdqNwm+66UHqhA3jLBG/rMrzhaBPXGB7V5QSkV9z1Jfk7tf1EAAtcpmFay0wtwACMV1QfRmtDDQI8L2gt1+v1yvktD5t359PP3jUQK20cY+JKFeEgxtFS/J69SmplDNIGSaG2FUZ6UB/C5M1aNhS8ZRireQRpATO0kEnST9VwBBQu1bIYFqnGNs2m8R3SrfXBpzkG6iuHgecp6Rge0zX4DBW2r06Ttj56ci0AC3zAMP3MTC0xMr2kplRar94EBEyU/vAttmjHAWXe3wgrZTDanNoZwNNqq3RSWymp9ykp41F9nAP5N0rPdAAPjt76dwaXy6VaQpH0L3IC6LJGq+riiFR7u+YBPT/WjnOqgAfPlZpCgAX8n5I6mcd0dZZKu78hf7fueW2npA/+3clIH6btzNBisr6qVpylK4h5OD4l7axOm6d//fTWmSN6DVmhLbVKHxxg4Gi2SRrHRIVJfeKiFRTjI0cAA1cpcWMt8I42upTcwAP9f9ZHHKd9rYDcuaHeqoEnWp3tmkuOh7kprZ0AzsHL6kROAMdo/SWazCNR9q6hYJc6Uq3f7Me+l7a8evGEPgzXXqZGeV1NWB9vCPiLpSu3xRsAFUiv+YPOwFH6mneA8aL26xpmKRnq94JIO2pEcNynDx2YJ/dK6ZdZDkfB7o2NAFpcJ+lTxmpHVRrN+k7xs8FTjMIt+i8BHtovlBb0B89zGgdUmq9U1w46g3t1VZaKu1dSuFOHk7H+UVcsPqCHGKH9FYuivKqaHfQ+xI5Zrl3HsitsSWC4HBi5RRdQijvuVTylw4crTKU0BB9hT8MIAVfpUwfgYfBq6bORGHfqlzvm37xY2nC/PmGQkq9+sFd6tBU4ipu7QWcTAAGcG5furwsXaeclU2/eotXdaaYLuSlC7h/LKdyqkXgXONKrdstnpJJ1jtDSTMYzyj9eP827dp30QjNq7E51xACaPaS9J1LaumK03K2k9oz4QWFCTxBYiTiG6m0ymqfSzZKuhqovKn353AL+3ErrnZIST/QGT7GNWzQND+Cg+0dSfBAFd+2QtGx6DlTS08zV1VnYtJVqOlAHAzAfkD5I+6r10EeZPPeqcZPNknY9MRSouVvdcVQa+5T0YD1caVNMz+lKJLXseSVSoU6CIIehxQIaVcsEHga/sOIKDPrNOO3oFgB9zoBGww8/sg04R0nmNAvI6nFzFn82EqjSqGke4LFjhlNzVFOyTrqC3NuPx8huzggO60WFwV0zOfrdU5eGhx7WswDMU2ePehLQbH/yjnbgKe3fUCLUF9uVCBWeZkDnlELtbUpgESKbAwOMzN6M7M5x8B3phiPdk9H4ixtgpDuP0WCveuKgQw1wRinvqL9FYUqLtih5INRXZ58x/fYwTIbqT2SzCOAMA3BB4A3AeTDnvVHiFgU8GICZkdE7cJbNOfCueN6Bc1lwHsx7Z4DReJ+6pYF3lP6eIiVD7b7iHRVzzaShXSKUa41mB8JOac4oEx33KJ7UD41H37x0y/btO7Zt3r55/bat8VTii1g5qWUi0RqjzDQqr1MyoeUQ5NVq0KBOQWF+hYKCGnUbFlJOahvuq1eW4OmXUhjXAsrnRjttrUyZGnCmEqm47oMcZ+lYejnqS1e24LhBYSKup6tQrnbOee8rMESP4coWg4skhfquqGp5Kvuzmo4vWzAY8e5ve/dI698djSsn1enSdeCY4yaetVC/VsfKGHBQtXmXjh17DKmHlYs8xynr5tE4yl5H+bvn+dddd/F/5xxfE6M0BgBWUDggygIAAJAUAJ0BKi8BKQA+bTaWSSQioiEjcrhQgA2JYwhytfAH6AfwAodf4DhCX4+cLmA7QG2A8wH7QdQD0AP2K6wD0APKs/aD4GP2o9HP//62d4AfQOwIMCVA9puoB0Wlq0015MyfOvDyk735bd9o3J8rABWWxv5nEPAci7QTSaHzfl7Z3Yt+OL65fRD72DhgvmUHjsBKULC3lgJ23pXV95gb7/3BeNcM8jfkeJruh/IAAPcPkSNsY5YvRoV+Za42erpTQ9SQ4t8ZDG8f90fyx6HPfY5oolqyi8MlnMDW9SR9yC08owpQKUqTOM1PIZkXmc+N9//80Q/fS4kGV90f/pULVrPNq9ii9viF//2ePhJLOBodzSHimltxaroICztl/Q8Oo7ildDxWEqHZekt8Ofmqwu1Qf16WCjM5lYAZ+v4gPl+BHSSoBgPJQ/WlJRmLN0Ew3m7KaSuD+qPGG//72if/+81xLqmJf/+YdDf//2/qs//bpnn//9v6yuS4E/cev7HxzU0NZ15fi5/+Yo5kSpDab//pKYJo+70FM/JAiP3pauSP9Qud4Nw/WQsKy+PfOJtbpwjEkm2PjCU/n8EWAt8jsXCyY9IkfPjDoUBXHIcuFZi7QubzRbQH7PldJD709MH8y/4PNN1MLqKFbd8RTSuYUPfdU5loQ1Kd4xGyICebRoyrKnfjtJohp/JraifEJgOiPU6jC5DZQubiYw736XV4iW/gLUD85Fe6hmvse6JjF+b8kJditWM+55Y22YLoak7PX4efvOjKnrbQFgF9IMII8x7naI/NlMARH/feN2vckUVtpsOzmr8DMZPYQgHK2aEmXlF9rXYd50rqEf8wizus+ObxSf/WJnVf/jWaU9/8HWm3VYtp/M044a2/+cPr6ZBY+sd+0wuAMWonSZy2Oh/bt1GXX4XCxOPnw6ZBmBY3uHVGcWAxkATX1s4AAA==" alt="Rub Rankings">
+    <div class="notice">Quick security check</div>
+  </header>
+  <main>
+    <h1>Just a quick check-in</h1>
+    <p>Before your session begins, please confirm you're a real person. It only takes a moment.</p>
+    <div class="challenge"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cFPWv: 'b',cH: '0UJeGgNp2eAUklzHfgwZgFeUDb2lY.D4eKGZ7oLoxLQ-1794272158-1.2.1.1-NGYfUcrD.CSSP3bO5D7_qdvd1GFxQK9LBjBTLcj1gn7nXfSm5voq0VKhrp2_A0Cm',cITimeS: '1794272158',cRay: 'a58118406d367a3e',cTplC:1,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/files/11-2026/ad10026000037/no-deposit-payment-in-person-only-ful-758873577_large.webp?__cf_chl_tk=JA97D3SMhrir2_HEFXoTdgjpd7DJ3XC9w_ImHpR9CDs-1794272158-1.0.1.1-RX034CX_x8SALtI3ny5jNOiVfYzQq.H2J918boCWvTA",cvId: '3',cZone: 'rubrankings.com',fa:"/files/11-2026/ad10026000037/no-deposit-payment-in-person-only-ful-758873577_large.webp?__cf_chl_f_tk=JA97D3SMhrir2_HEFXoTdgjpd7DJ3XC9w_ImHpR9CDs-1794272158-1.0.1.1-RX034CX_x8SALtI3ny5jNOiVfYzQq.H2J918boCWvTA",md: 'maL4VbJz7GMD.tLNu6jKyev7FoTe6Pis8JIr4qSQaLA-1794272158-1.2.1.1-wyWnW47jrEUI3jkZm5cSyswsPnPtm8Xk8EaRrfINZleGp6al_pb4Z3xB1mLsbK6xqw7zvuBKxPcwZRbH4Eor3G5CGNwCO6Rwj02uIXUA1StdCY4BQhQH4lrH9IfbyjqeW9d1MjLwBVpwHh6w0VypzAM3N63ZFlG9JJ5MZt6kJTNy59IPEw1oRRT.dMtxONSJDJWlS5PW8xYu9dFa08xOWn5pPcvX9EfJ9zXKQTvA3KogHvmN3AdXb5APNgbmDTr2zuW1mMoCxoImxOOOFTESIsVJedk3Vf5J83TVcLJNCJwfqJO40RBwlc39XEj1Lt199MJegmWvmVJLCMxdgdMitUGGw5t6jlwhocF28wpEsK1hYgi67tqtpG6Rbi6kdk.Rixc_kCsCo0F3bbCalOfcahoUmK5tdXHtzauwif5glybWT_Qsn1Dmplrb.A1t25F9ey72Xm7EkeLiEArdEvyq0vtGEdhc8EB3ikdy74jGgoHSBT_OkiIwXTn19_7YP5WjFRwQsWxVBISzQF6H6tQjJvYlg03cNCH9mMdaRtZf0hKEiKEw8fvZqJ3dDEe5NGaPGLVYrc6qQODgiog5QawOq1bQ0_SMrXLDePS3swv1rJ4HYxuLxo0dpKfMtdwAT1sC79lyoeTyKeHe6ev.0WjebMor5tgDYYa8MKsu8uRf6mxTYp6W9ToUm877PrOWMgqJBnna5m55Ja9wwS775aqfm8KKYDnOZq.AZYLSGkzuxzq_og4bcTthGjby_IezZokI04fR86biI1epJBxrjGH0WPrFvWX_9Xoc3JtxyIj7MN.ytNtARLEwzghokU7gxDii4S_sDNr815845Y8vez6oCQqsuqu14PxFUh3ZHQYC0jDYrdJ0Ja77beWPr5AiYDi_ogpDdv4vKRV8Yd1Aib0KqyJRYNgyY2ngzhsY4rdCEeaMonwxUC4d8KHa.DNba2d9Aud8SRrobsK9RV.aASCXafNJzZArF6ZQiO.KFYz3w0K9_ctxNT1Hg1lbAgA1s1NfdAa73jX5sfHCLCsFWJUDJqxMaohzwgkdU00FimMMSWJrwEucudjjxzggalp73gaBk7tlfLPr9PMhWX_n5v0Q65gicNe_dojpeS3JkHP2H3p.njkx1o7EsCy3VR6F_mFDOVLCKHUXqOISqnvWIpyb3Q',mdrd: '9o6GTvAqoHTx3P_96DNn94HRyQUvpu_wlChj2tztQsQ-1794272158-1.2.1.1-8Q_BovyfccxElELb7pHUxS.JcJdiO0zcc46Dbzq2hC36NMgbtxEcCnaX5qrGfAjmSi4st2_UKt71aQIugiAt5sXxNt7lZ3VMvV_2KCQbrSmSLEAx4upcX3Vcw5JjHqVVdZMBWTzfNzrzxF7zArfpM20S0yFKYTrxhgbmSbJFHXVUCF7KWR_Jzt6Aemk_tozaRccsLVJL9KIWBqZHNeiZjw',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a58118406d367a3e';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/files/11-2026/ad10026000037/no-deposit-payment-in-person-only-ful-758873577_large.webp?__cf_chl_rt_tk=JA97D3SMhrir2_HEFXoTdgjpd7DJ3XC9w_ImHpR9CDs-1794272158-1.0.1.1-RX034CX_x8SALtI3ny5jNOiVfYzQq.H2J918boCWvTA"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+    <svg class="scene" viewBox="0 -45 400 235" aria-hidden="true">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6bfa3"/><stop offset=".55" stop-color="#d1a081"/><stop offset="1" stop-color="#a9765a"/>
+    </linearGradient>
+    <linearGradient id="handg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0cdb3"/><stop offset="1" stop-color="#c99577"/>
+    </linearGradient>
+    <linearGradient id="sleeve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a1fb0"/><stop offset="1" stop-color="#7b2ee6"/>
+    </linearGradient>
+    <linearGradient id="towelg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f2fa"/><stop offset="1" stop-color="#d9d0e4"/>
+    </linearGradient>
+    <radialGradient id="shine" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <!-- table -->
+  <rect x="0" y="140" width="400" height="14" rx="5" fill="#2c2833"/>
+  <rect x="0" y="140" width="400" height="4" rx="2" fill="#7b2ee6"/>
+  <ellipse cx="200" cy="141" rx="170" ry="5" fill="#000" opacity=".45" filter="url(#soft)"/>
+  <!-- leg, lying face down: back of thigh, knee, calf, achilles, heel, foot -->
+  <g class="calf">
+    <path fill="url(#skin)" d="M-5 94 C40 91 92 93 126 98 C146 101 160 86 186 80 C212 74 236 84 253 97 C263 104 271 106 279 104
+      C291 100 301 102 305 112 C309 122 319 131 335 136 C338 140 328 142 318 141 C300 139 289 135 281 133
+      L232 137 C182 139 132 140 90 139 L-5 139 Z"/>
+    <!-- muscle highlight on calf -->
+    <path d="M150 92 C168 82 196 78 222 84 C236 88 246 94 252 100 C236 93 214 88 192 88 C176 88 162 91 150 95 Z" fill="#f3d3bc" opacity=".55"/>
+    <!-- shin shadow and knee crease -->
+    <path d="M100 132 C150 134 200 133 250 130 C230 136 170 138 100 137 Z" fill="#8f5f45" opacity=".35"/>
+    <path d="M124 99 C128 104 131 110 132 116" fill="none" stroke="#a5735a" stroke-width="1.4" stroke-linecap="round" opacity=".7"/>
+    <!-- achilles + heel definition -->
+    <path d="M262 103 C270 108 280 108 290 104" fill="none" stroke="#a5735a" stroke-width="1.2" opacity=".6"/>
+    <path d="M318 141 C322 138 326 138 330 139" fill="none" stroke="#a5735a" stroke-width="1" opacity=".7"/>
+  </g>
+  <!-- towel over the thigh -->
+  <path fill="url(#towelg)" d="M-6 78 C30 70 70 70 98 80 C104 82 106 90 104 100 L110 140 L-6 140 Z"/>
+  <path d="M20 76 L26 138 M48 72 L56 138 M76 74 L86 138" fill="none" stroke="#c9bed6" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- massaging hands with forearms (therapist standing behind the table) -->
+  <g class="hands">
+    <g class="squeeze">
+      <g><path fill="url(#sleeve)" d="M138 50 L160 40 L122 -40 L92 -30 Z"/><path fill="url(#handg)" d="M158 76 L142 46 L158 40 L176 74 Z"/><path d="M138 50 L160 40" stroke="#4a1792" stroke-width="5" stroke-linecap="round"/><path d="M156 82 Q146 78 142 86" stroke="#b8805f" stroke-width="7.6" stroke-linecap="round" fill="none"/><path d="M156 82 Q146 78 142 86" stroke="url(#handg)" stroke-width="6.2" stroke-linecap="round" fill="none"/><path d="M162 86 Q158 99.2 160 110" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M162 86 Q158 99.2 160 110" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M158.5 107 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M169 86 Q165 101.4 167 114" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M169 86 Q165 101.4 167 114" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M165.5 111 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M176 86 Q172 100.85 174 113" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M176 86 Q172 100.85 174 113" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M172.5 110 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M183 86 Q179 98.1 181 108" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M183 86 Q179 98.1 181 108" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M179.5 105 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path fill="url(#handg)" d="M152 78 C154 68 176 66 188 74 C194 79 192 88 184 90 C174 92 160 91 154 86 Z"/><path d="M162 74 C170 71 180 72 186 77" stroke="#c4906f" stroke-width="1.1" fill="none" opacity=".8"/><circle cx="166" cy="87" r="1.3" fill="#c4906f"/><circle cx="173" cy="88" r="1.3" fill="#c4906f"/><circle cx="180" cy="87" r="1.3" fill="#c4906f"/></g>
+      <g><path fill="url(#sleeve)" d="M180 52 L202 42 L164 -38 L134 -28 Z"/><path fill="url(#handg)" d="M200 78 L184 48 L200 42 L218 76 Z"/><path d="M180 52 L202 42" stroke="#4a1792" stroke-width="5" stroke-linecap="round"/><path d="M198 84 Q188 80 184 88" stroke="#b8805f" stroke-width="7.6" stroke-linecap="round" fill="none"/><path d="M198 84 Q188 80 184 88" stroke="url(#handg)" stroke-width="6.2" stroke-linecap="round" fill="none"/><path d="M204 88 Q200 101.2 202 112" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M204 88 Q200 101.2 202 112" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M200.5 109 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M211 88 Q207 103.4 209 116" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M211 88 Q207 103.4 209 116" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M207.5 113 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M218 88 Q214 102.85 216 115" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M218 88 Q214 102.85 216 115" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M214.5 112 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path d="M225 88 Q221 100.1 223 110" stroke="#b8805f" stroke-width="7.4" stroke-linecap="round" fill="none"/><path d="M225 88 Q221 100.1 223 110" stroke="url(#handg)" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M221.5 107 l2 1" stroke="#f6dccb" stroke-width="1.2" stroke-linecap="round" opacity=".8"/><path fill="url(#handg)" d="M194 80 C196 70 218 68 230 76 C236 81 234 90 226 92 C216 94 202 93 196 88 Z"/><path d="M204 76 C212 73 222 74 228 79" stroke="#c4906f" stroke-width="1.1" fill="none" opacity=".8"/><circle cx="208" cy="89" r="1.3" fill="#c4906f"/><circle cx="215" cy="90" r="1.3" fill="#c4906f"/><circle cx="222" cy="89" r="1.3" fill="#c4906f"/></g>
+      <ellipse class="press-glow" cx="194" cy="94" rx="46" ry="11" fill="url(#shine)"/>
+    </g>
+  </g>
+</svg>
+    <p class="small">Relax, you'll be on your way in a few seconds.<br>Ray ID: a58118406d367a3e</p>
+  </main>
+
+</body>
+</html>
